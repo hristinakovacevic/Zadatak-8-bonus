@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="style.css">
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Rock, Paper, Scissors</title>
+
+    
+  </head>
+  <body>
+   <div class="container">
+      <header>
+        <div >
+        <h2>Rock</h2>
+        <h2> Paper</h2>
+        <h2>Scissors</h2>
+      </div>
+        <div class="score">
+          <h5>score</h5>
+          <h1>0</h1>
+        </div>
+      </header>
+      <main>
+        <div class="img-wrap">
+        <img src="./images/bg-triangle.svg" alt="">
+        
+        <div class="blue-yellow-red">
+          <div class="circle " id="scissors">
+           
+            </div>
+        
+        <div class="circle" id="rock">
+         
+        </div>
+        <div class="circle" id="paper">
+          
+        </div>
+      </div>
+        </div>
+      </main>
+      <section class="result-section">
+        <div class="player">
+          <h4 class="you-picked">You Picked </h4>
+         
+        </div>
+        <div class="result">
+          <h3 id="result-title"></h3>
+
+          <button class="play-again-btn">play Again</button>
+        </div>
+        <div class="computer">
+          <h4>The House picked</h4>
+        </div>
+
+      </section>
+<footer>
+  <button class="rules-btn">RULES</button>
+</footer>
+  
+   </div>
+   <!-- -------------------------------------Modal--------------------------- -->
+   <div class="modal">
+     <div class="rules-card">
+       <div class="card-header">
+       <h3>RULES</h3>
+       <img class="close" src="./images/icon-close.svg">
+      </div>
+    <img class="rules"  src="./images/image-rules.svg">
+  </div>
+   </div>
+   <script src="new.js"></script>
+  </body>
+</html>
